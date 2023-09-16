@@ -17,6 +17,7 @@ function add(){
         const result=memoryCost+storageCost+deliveryCost+basePrice;
 
         document.getElementById('total-price').innerText=result;
+        document.getElementById('total-amount').innerText=result;
         
 
 }
